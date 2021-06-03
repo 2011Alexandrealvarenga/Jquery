@@ -7,4 +7,6 @@ function iniciar(){
     // alterando propriedade do ID
     $("#id1").css("background","red")
              .css("color","white");
+    $(".classe1").css("background","blue")
+                .css("color","red");
 }
