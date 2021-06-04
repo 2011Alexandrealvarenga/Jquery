@@ -20,4 +20,7 @@ $("ul li:last").html("alterado no final")
 // altera os elementos pares
 // $("ul li:even").css("background","blue");
 
+// altera os elementos impar
+// $("ul li:odd").css("background","yellow");
+
 }
