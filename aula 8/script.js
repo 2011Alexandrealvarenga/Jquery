@@ -5,4 +5,7 @@ function iniciar(){
 
     // altera diferente do class 
     $("p[class!='texto']").css("background","lightblue")
+
+    // altera classes que comecam com j
+    $("[class^='j']").css("background","pink")
 }
