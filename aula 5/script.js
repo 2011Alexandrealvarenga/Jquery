@@ -8,4 +8,7 @@ function iniciar(){
 // maior que
 $("ol li:gt(2)").css("background","yellow");
 
+// menor que
+$("ol li:lt(2)").css("background","blue");
+
 }
