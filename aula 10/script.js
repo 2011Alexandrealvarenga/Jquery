@@ -11,6 +11,9 @@ function iniciar(){
     // $('p#teste').prevAll().css('background','yellow');
 
     // do segundo item pra frente sera marcado
-    $('p:eq(2)').nextAll().css('background','yellow');
+    // $('p:eq(2)').nextAll().css('background','yellow');
+
+    // marca de ate 
+    $('p#teste').nextUntil('p#teste2').css('background','yellow');
 
 }
