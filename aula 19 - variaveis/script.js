@@ -1,13 +1,9 @@
 $(document).ready(iniciar);
 
 function iniciar(){
+    var e = $("#info");
+    $("input:text[name='texto1']").click(function(){
+        e.text("clicou")
+    })
 
-    $('input').focusin(fIn).focusout(fOut);
 };
-function fIn(){
-    $(this).css('background','yellow')
-}
-function fOut(){
-    $(this).css('background','lightblue')
-}
-
