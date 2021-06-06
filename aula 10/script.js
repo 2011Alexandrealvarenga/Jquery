@@ -7,6 +7,10 @@ function iniciar(){
     // todos os proximos serao marcados
     // $('p#teste').nextAll().css('background','yellow');
 
-    $('p#teste').prevAll().css('background','yellow');
+    // seleciona todos os anteriores ao id teste
+    // $('p#teste').prevAll().css('background','yellow');
+
+    // do segundo item pra frente sera marcado
+    $('p:eq(2)').nextAll().css('background','yellow');
 
 }
