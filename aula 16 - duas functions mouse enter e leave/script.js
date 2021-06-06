@@ -5,7 +5,7 @@ function iniciar(){
     $("p").mouseenter(function(){
         $(this).css('background','green')
     })
-    .mouseleave(function(){
+        .mouseleave(function(){
         $(this).css('background','lightblue')
         }
     )
