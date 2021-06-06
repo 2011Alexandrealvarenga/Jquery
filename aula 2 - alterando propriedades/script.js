@@ -11,6 +11,7 @@ function iniciar(){
     $(".class1").css("background","red")
                 .css("color","yellow");
     $("div p").css("color","greeen");
+    
 
     // evento ao clicar (click)
     // hide oculta
