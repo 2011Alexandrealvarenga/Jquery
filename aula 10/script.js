@@ -1,6 +1,6 @@
 $(document).ready(iniciar);
 
 function iniciar(){
-    // atribuir texto a um paragrafo vazio
-    $("p:empty").text("este p estava sem texto")
+    // o paragrafo posterior ao id teste sera marcado
+    $('p#teste').next().css('background','yellow')
 }
