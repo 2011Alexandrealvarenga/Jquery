@@ -19,8 +19,8 @@ function executar(){
 }
 function mousemove(){
     // altera o texto
-    // $('#p2').html("moveu o mouse");
+    $('#p2').html("moveu o mouse");
 
     // acrescenta valor ao mover o mouse
-    $('#p2').text(numero++);
+    // $('#p2').text(numero++);
 }
