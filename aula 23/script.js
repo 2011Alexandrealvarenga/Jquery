@@ -1,20 +1,15 @@
 $(document).ready(iniciar);
-
+ 
 function iniciar(){
-   $('#formulario').submit(
-      function(){
-         return false
+   $("#formulario").submit(function(){return false;});
+   $("#teste").toggle(primeira, segunda);
+      function primeira(){
+         $(this).css("color", "red");
       }
-   );
-   $('#teste').toggle(
-      function(){
-         $(this).css("color","red")
-      },
-      function(){
-         $(this).css("color","blue")
+      function segunda(){
+         $(this).css("color", "blue");
       }
-   )
-         
-};
+   
+}
 
 
