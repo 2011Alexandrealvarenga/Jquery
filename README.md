@@ -1,4 +1,4 @@
 # Jquery
 Exercicios de jquery
 parei no inicio da aula 
-https://www.youtube.com/watch?v=-bk1vWBbTdw&list=PLXik_5Br-zO90OxZBRvMR3yGVpsHqeXH7&index=32
+https://www.youtube.com/watch?v=2GMSwatGL7o&list=PLXik_5Br-zO90OxZBRvMR3yGVpsHqeXH7&index=34
