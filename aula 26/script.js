@@ -1,9 +1,15 @@
 $(document).ready(iniciar);
  
 function iniciar(){
-   $('#formulario').submit(function(){return false;})
-   $('input:text').bind("keypress", function(e){
-   })   
+//  adicionar o evento ao primeiro
+$('#primeiro').click(function(){alert('ola')})
+
+// retirar o evento ao primeiro
+$('#segundo').click(function(){
+   alert('retirar evento do primeiro');
+   $('#primeiro').off();
+})
+
 }
 
 
