@@ -7,8 +7,12 @@ var n = 0;
    // })
 
    // exibe informacoes do redimensionamento da tela
-   $(window).resize(function(){
-      $('#info').text(n++);
-   })
+   // $(window).resize(function(){
+   //    $('#info').text(n++);
+   // })
 
+   // exibe mensagem ao dar scroll
+   $(window).scroll(function(){
+      alert('scroll')
+   })
 }
