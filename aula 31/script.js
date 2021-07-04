@@ -12,7 +12,16 @@ var n = 0;
    // })
 
    // exibe mensagem ao dar scroll
-   $(window).scroll(function(){
-      alert('scroll')
+   // $(window).scroll(function(){
+   //    alert('scroll')
+   // })
+
+   // $(window).scroll(function(){
+   //    alert('scroll')
+   // })
+
+   // exibe a mesnagem scroll no paragrafo
+   $('#texto').scroll(function(){
+      $('#info').text('scrolllando');
    })
 }
