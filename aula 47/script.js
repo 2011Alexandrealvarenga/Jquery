@@ -9,7 +9,10 @@ $(document).ready(iniciar);
     // alert($("div").text());
 
     // add tag
-    $('.primeiradiv').html('<p>add tag</p>');
+    // $('.primeiradiv').html('<p>add tag</p>');
+
+    // add text
+    $('.primeiradiv').text('<p>add tag</p>');
 
   })
  
