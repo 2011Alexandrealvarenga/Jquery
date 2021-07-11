@@ -1,6 +1,6 @@
 $(document).ready(iniciar);
 var num = 0;
-
+var valores = ['red','green','yellow','black','blue','gray'];
  function iniciar(){
    // atribuir um evento click ao botao
    $('button').click(function(){
@@ -8,7 +8,9 @@ var num = 0;
       // buscar os elementos 'p'
       $('p').each(function(){
          // atribui o test 'o novo valor é'
-         $(this).text('o novo valor é:' + num++);
+         $(this).css('color',valores[num]);
+         num++;                  
+
       });
    })
 }
