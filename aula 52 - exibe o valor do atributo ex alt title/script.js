@@ -2,7 +2,7 @@ $(document).ready(iniciar);
 
  function iniciar(){
 $('button').click(function(){
-  // troca por 
+  // exibe o valor do atribuito ex. alt title 
   $('#info').text(
     $('#teste').attr('alt')
     );
