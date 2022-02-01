@@ -1,0 +1,10 @@
+var src1 = "http://localhost/SERVER-LOCAL/wp-content/themes/soledad/images/logo.png";
+var src2 = "https://www.tokiomarine.com.br/wp-content/themes/tokiomarine/assets/icons/common/logo-tokio-white.svg";
+
+$(".item-contraste").click(function(){
+   var src = $('#logo a img').attr('src'); 
+   if(src == src1){
+       $('#logo a img').attr('src',src2);}
+   else{
+       $('#logo a img').attr('src',src1);}
+});
