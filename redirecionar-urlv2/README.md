@@ -1,2 +1,0 @@
-# redirecionar-url
-redirecionar url 
