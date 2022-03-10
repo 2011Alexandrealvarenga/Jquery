@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        // artigo
+        // https://css-tricks.com/snippets/javascript/get-url-and-url-parts-in-javascript/
+		// var newurl = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname + window.location.search
+
+        // var host = window.location.host
+        // var pathname = window.location.pathname
+        // var search = window.location.search
+        
+        // redirecionar pegando a url   
+
+        // window.location.href = newurl;
+        // console.log(urlnova);
+        // var a = window.location.hostname.replace(/^www\.|wwd\.|wwa\./,'');
+        var a = window.location.hostname;
+        var b = window.location.pathname;      
+
+        if(a.includes('www')){            
+            var newurl = window.location.protocol
+            var newurl = 'https://'
+            var urlnova = newurl + window.location.host + window.location.pathname + window.location.search
+            window.location.href = urlnova;
+        }
+
+		// var newurl = window.location.protocol
+        // var newurl = 'https://'
+        // var urlnova = newurl + window.location.host + window.location.pathname + window.location.search
+        // window.location.href = urlnova;
+
+
+
+
+    </script>
+</body>
+</html>
