@@ -1,0 +1,23 @@
+p{
+  font-family: monospace;
+  text-align: justify;
+  font-size: 30px;
+  color: #e0e0e0;
+}
+
+.obj{
+  width: 300px;
+  height: 300px;
+  background: #e91e63;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin: -150px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+  transition: all 0.2s ease-in-out;
+}
+
+.change{
+  border-radius: 50%;
+  background: #673ab7;
+}
