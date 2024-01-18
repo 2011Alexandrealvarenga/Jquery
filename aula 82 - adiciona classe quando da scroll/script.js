@@ -1,12 +1,12 @@
 $(function() {
 	$(window).scroll(function () {
-		if ($(window).scrollTop() > 400) {
-			$('.obj').addClass('change');
-		}
-
-		else {
-			$('.obj').removeClass('change');
-		}
+  // comece aqui - exibe e oculta conteudo
+  jQuery('#class1').click(
+    function(){
+      jQuery('#content1').css('display','block');
+      jQuery('#content2').css('display','none');
+    }
+  )
 	});
 })
 
