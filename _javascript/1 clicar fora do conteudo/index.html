@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    .box {
+      margin: 1rem auto 1rem auto;
+      max-width: 300px;
+      border: 1px solid #555;
+      border-radius: 4px;
+      padding: 1rem 1.5rem;
+      font-size: 1.5rem;
+    }
+
+    .js-is-hidden {
+      display: none;
+    }
+  </style>
+  <div class="box">
+    If you click anywhere outside of me, I’m gone faster than you can snap your
+    fingers.
+  </div>
+  <script>
+    // Select element with box class, assign to box variable
+    const box = document.querySelector(".box")
+    // Detect all clicks on the document
+    document.addEventListener("click", function(event) {
+      // If user clicks inside the element, do nothing
+      if (event.target.closest(".box")) return
+      // If user clicks outside the element, hide it!
+      box.classList.add("js-is-hidden")
+    })
+  </script>
+  <!-- 
+    feito atraves de 
+    https://techstacker.com/how-to-detect-clicks-outside-element-javascript/
+   -->
+</body>
+</html>
